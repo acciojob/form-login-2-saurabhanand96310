@@ -1,4 +1,3 @@
-//your JS code here. If required.
 document.querySelector('form').addEventListener('submit', function(event) {
     event.preventDefault();
 
@@ -7,5 +6,5 @@ document.querySelector('form').addEventListener('submit', function(event) {
     var phoneNo = document.querySelector('input[name="Phone Number"]').value;
     var emailId = document.querySelector('input[name="Email ID"]').value;
 
-    alert(`First Name: ${firstName} Last Name: ${lastName} Phone Number: ${phoneNo} Email ID: ${emailId}`);
+    alert(`First Name: ${firstName} \nLast Name: ${lastName} \nPhone Number: ${phoneNo} \nEmail ID: ${emailId}`);
 });
