@@ -7,5 +7,5 @@ document.querySelector('form').addEventListener('submit', function(event) {
     var phoneNo = document.querySelector('input[name="phone no:"]').value;
     var emailId = document.querySelector('input[name="email id:"]').value;
 
-    alert(`First Name: ${firstName} \nLast Name: ${lastName} \nPhone Number: ${phoneNo} \nEmail ID: ${emailId}`);
+    alert(`First Name: ${firstName} Last Name: ${lastName} Phone Number: ${phoneNo} Email ID: ${emailId}`);
 });
